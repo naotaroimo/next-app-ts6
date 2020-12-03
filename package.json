@@ -2,7 +2,7 @@
   "name": "with-typescript",
   "version": "1.0.0",
   "scripts": {
-    "dev": "cross-env MY_ENV=1234 next",
+    "dev": "cross-env MY_ENV=1234 MY_SECRET=secret next",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc"
